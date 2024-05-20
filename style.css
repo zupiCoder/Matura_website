@@ -1,0 +1,284 @@
+:root {
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif; 
+    background: #2b2b2c;
+}
+
+body {
+    color: black;
+    background-color: #2b2b2c;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    min-height: 100vh
+}
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #b6b6b6;
+
+}
+
+.main {
+    margin-top: 200px;
+
+
+
+}
+
+
+section {
+    color: white;
+    width: 100%;
+    background-color: #24262b00;
+    margin: 200px;
+    margin-left: 0px;
+    padding-left: 30px;
+    text-align:center;
+    display:inline-block;
+    height: 100px;
+    position: relative;
+    margin-top: -30%;
+}
+
+aside {
+    width: 29%;
+    background-color: rgb(46, 40, 40);
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav { 
+    font-family:'Zilla Slab', serif;;
+    top: 0%;
+    position: relative;
+    margin: 0px auto 0;
+    width: 1080px auto 0;
+    height: 50px;
+    background: #2b2b2c;
+    border-radius:0px;
+    font-size: 0;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+   
+}   
+
+nav a {
+    font-size: 17px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+}
+
+nav .animation{
+    position: absolute;
+    height: 8%;
+    bottom: 0;
+    z-index: 0;
+    background: #4b4f52;
+    border-radius: 2.5px;
+    transition: all .25s ease 0s;
+}
+
+a:nth-child(1) {
+    width: 100px;
+}
+nav .start-home,a:nth-child(1):hover~.animation {
+    width: 100px;
+    left: 0;
+}
+
+
+
+a:nth-child(2) {
+    width: 110px;
+}
+
+nav .start-Osnutek,a:nth-child(2):hover~.animation {
+    width: 100px;
+    left: 104.5px;
+}
+a:nth-child(3) {
+    width: 210px;
+}
+
+nav .start-Dokumentacija,a:nth-child(3):hover~.animation {
+    width: 220px;
+    left: 202px;
+    
+}
+    a:nth-child(4) {
+    width: 100px;
+
+}
+
+nav .start-Izdelek,a:nth-child(4):hover~.animation {
+    width: 100px;
+    left: 420px;
+}
+
+a:nth-child(5) {
+    width: 120px;
+}
+
+nav .start-Avtor,a:nth-child(5):hover~.animation {
+    width: 120px;
+    left: 520px;
+}
+
+
+
+
+
+a{
+    color:#d8d8da;
+    text-decoration: none;
+    font-weight: bold;
+   
+
+
+
+
+
+
+
+
+
+}
+
+
+ul{
+    list-style: none;
+
+
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+
+
+
+
+
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+
+.footer{
+    background-color: #24262b;
+    padding: 10px 0;
+    margin-bottom: 0%;
+    color: white;
+    width: 100%;
+    position:absolute;
+    bottom:0;
+
+}
+
+
+
+.footer-col{
+    width: 30%;
+    padding: 0 15px;
+
+
+
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    
+
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 62px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+    width: 1000px;
+
+
+
+
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav_a {
+    font-family:'Zilla Slab', serif;
+
+
+
+
+
+
+}
+
+
+.body_author {
+    color: white;
+    text-align: left;
+}
